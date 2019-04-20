@@ -1,2 +1,13 @@
+// reset css
+@import './reset.scss';
+
+//common scss
+@import './components/common.scss';
+
+// node_modules
+@import '~react-tabs/style/react-tabs.css';
+
+// components
 @import './App.scss';
 @import './index.scss';
+@import './components/Header.scss';
